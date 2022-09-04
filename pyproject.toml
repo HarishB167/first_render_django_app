@@ -6,8 +6,8 @@ authors = ["Harish <harishpoctor@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-Django = "^4.1"
+python = "^3.7"
+Django = "*"
 dj-database-url = "^1.0.0"
 psycopg2-binary = "^2.9.3"
 whitenoise = {extras = ["brotli"], version = "^6.2.0"}
